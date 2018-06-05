@@ -20,6 +20,10 @@ keystone.init({
 	'views': 'templates/views',
 	'view engine': '.hbs',
 
+	'cloudinary config': 'cloudinary://333779167276662:_8jbSi9FB3sWYrfimcl8VKh34rI@keystone-demo',
+	'wysiwyg cloudinary image':true,
+	'wysiwyg images':true,
+
 	'custom engine': handlebars.create({
 		layoutsDir: 'templates/views/layouts',
 		partialsDir: 'templates/views/partials',
